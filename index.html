@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh_cn">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+        <title>reg</title>
+    </head>
+    <body>
+        <div class="page">
+            <div class="alarm">
+                <span class="clock" id="clock">00:00:00</span>
+                <span class="topic" id="topic">Ciallo～(∠・ω< )⌒☆</span>
+            </div>
+
+            <div class="search-con">
+                <div class="search">
+                    <input type="text" id="search__input" class="search__input" placeholder="Search...">
+                    <button type="submit" class="search__button" id="search__btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-background">
+            <video id="bg-video" autoplay muted loop playsinline>
+                <source src="./adv.mp4" type="video/mp4">
+                您的浏览器不支持视频标签。
+                </video>
+            </div>
+        <div class="overlay"></div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
