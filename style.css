@@ -19,7 +19,10 @@
 body {
     height: 100vh;
     /* background-color: rgba(0, 0, 0, 0.603); */
-    background: url("./adv.mp4");
+    background: url("https://static1.e926.net/data/e7/a4/e7a4108a6ca8501b2bd03b0ba2742ae2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 a {
@@ -40,6 +43,7 @@ a:hover {
     height: 100%;
     z-index: -1; /* 确保视频在内容后面 */
     overflow: hidden;
+    display: none;
 }
 
 .video-background video {
@@ -85,7 +89,7 @@ a:hover {
     transition: all 0.3s ease-in-out;
 }
 .search-con:hover {
-    background-color: rgba(33, 33, 33, .5);
+    background-color: rgba(33, 33, 33, .2);
 }
 
 .alarm {
